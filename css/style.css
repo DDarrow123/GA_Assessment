@@ -1,0 +1,61 @@
+.flex {
+display: flex;
+justify-content: center;
+
+}
+
+.main-font {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.gutter {
+  padding: 40px;
+}
+
+.about-image {
+  width: 400px;
+  height: 400px;
+  margin: 200px 0 100px 0;
+  border: 3px solid white;
+}
+
+body {
+background-color: #bcbbaf;
+
+}
+
+.about-title{
+  position: fixed;
+
+  top: 120px;
+  right: 580px;
+  font-size: 80px;
+
+}
+
+hr {
+  border-bottom: 5px solid black;
+}
+
+.about-section-title {
+  font-size: 40px;
+  margin-right: 60px;
+
+}
+
+.about-para {
+  font-size: 20px;
+  margin-left: 60px;
+
+}
+
+.about-para li {
+padding: 10px;
+list-style-type: square;
+border: 3px solid white;
+margin: 10px;
+}
+
+.contact{
+  border: 3px solid white;
+}
