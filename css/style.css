@@ -23,6 +23,13 @@ justify-content: center;
   border: 3px solid white;
 }
 
+.header-name {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: .5em;
+
+}
+
 body {
 background-color: #bcbbaf;
 }
@@ -85,17 +92,39 @@ footer{
 list-style: none;
 padding: 10px;
 }
+
+.fb-style{
+
+  margin-top: 9px;
+  margin-right: 5px;
+}
+
+.insta-style{
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+
 /*MEDIA QUERIES BEGIN*/
 
 @media screen and (max-width: 700px){
 .flex {
-  display: block;
-  justify-content: center;
+   display: block;
+   justify-content: center;
   }
 
 .flex-column{
     display: block;
     flex-direction: column;
+  }
+
+.header-name {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: .5em;
+    text-align: center;
+    line-height: 50px;
+
   }
 
 .about-image {
@@ -129,32 +158,31 @@ padding: 10px;
 
 
 .about-para-style {
-  padding: 20px;
-  list-style-type: none;
-  border: 3px solid white;
-  margin: 30px;
-  font-size: 20px
+   padding: 20px;
+   list-style-type: none;
+   border: 3px solid white;
+   margin: 30px;
+   font-size: 20px
   }
 
-footer{
-    margin-right: 200px;
-    margin-left: 0;
+footer {
+    margin-right: 100px;
+    margin-left: 30px;
+
   }
 
 .contact{
     border: 3px solid white;
-
     padding: 20px;
     margin-top: 70px;
-
     width: 200px;
   }
 
 .media-style{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: flex-start;
 }
 
 #user-email{
@@ -171,8 +199,14 @@ footer{
 .media-list li{
   list-style: none;
 
-  margin-left: 60px;
+  margin-left: 50px;
   margin-top: 20px;
   }
+
+.fb-image{
+  margin-left: 20px;
+
+}
+
 
 }
