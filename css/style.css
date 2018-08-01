@@ -52,7 +52,6 @@ hr {
   width: 400px;
 }
 
-
 .about-para-style {
 padding: 20px;
 list-style-type: none;
@@ -80,4 +79,100 @@ footer{
 #submit{
   margin-left: 15px;
   padding: 10px;
+}
+
+.media-list li{
+list-style: none;
+padding: 10px;
+}
+/*MEDIA QUERIES BEGIN*/
+
+@media screen and (max-width: 700px){
+.flex {
+  display: block;
+  justify-content: center;
+  }
+
+.flex-column{
+    display: block;
+    flex-direction: column;
+  }
+
+.about-image {
+    width: 300px;
+    height: 300px;
+    margin: 100px 0 100px 0;
+    border: 3px solid white;
+  }
+
+.about-title{
+    top: 120px;
+    right: 600px;
+    font-size: 60px;
+    padding: 20px;
+    margin-top: 0;
+
+  }
+
+.instruction-title{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+.about-section-title {
+    font-size: 30px;
+    margin-right: 60px;
+    margin-top: 50px;
+    width: 300px;
+  }
+
+
+.about-para-style {
+  padding: 20px;
+  list-style-type: none;
+  border: 3px solid white;
+  margin: 30px;
+  font-size: 20px
+  }
+
+footer{
+    margin-right: 200px;
+    margin-left: 0;
+  }
+
+.contact{
+    border: 3px solid white;
+
+    padding: 20px;
+    margin-top: 70px;
+
+    width: 200px;
+  }
+
+.media-style{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#user-email{
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+#submit{
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+.media-list li{
+  list-style: none;
+
+  margin-left: 60px;
+  margin-top: 20px;
+  }
+
 }
